@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "nodrift",
+	"version": "${version}",
+	"name": "NoDrift",
+	"description": "Tames the drift when flying in creative mode. Release the movement keys and you stop — with exactly as much glide as you want.",
+	"authors": [
+		"Mikael"
+	],
+	"contact": {
+		"homepage": "https://github.com/mikaelweiss/nodrift",
+		"sources": "https://github.com/mikaelweiss/nodrift",
+		"issues": "https://github.com/mikaelweiss/nodrift/issues"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nodrift/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.mikael.nodrift.NoDriftClient"
+		],
+		"modmenu": [
+			"dev.mikael.nodrift.NoDriftModMenu"
+		]
+	},
+	"mixins": [
+		{
+			"config": "nodrift.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.1",
+		"java": ">=25"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"nodrift.config.title": "NoDrift Settings",
+	"nodrift.config.drift": "Drift: %s",
+	"nodrift.config.drift.none": "None (instant stop)",
+	"nodrift.config.drift.vanilla": "Vanilla"
+}
