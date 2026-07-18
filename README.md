@@ -2,7 +2,7 @@
 
 A client-side Fabric mod that tames the drift of creative-mode flight. Release the movement keys and you stop — with exactly as much glide as you want, configurable from full vanilla drift down to an instant stop.
 
-Built for Minecraft **26.1 – 26.1.2**.
+Built for Minecraft **26.1 – 26.2**.
 
 ![icon](icon-512.png)
 

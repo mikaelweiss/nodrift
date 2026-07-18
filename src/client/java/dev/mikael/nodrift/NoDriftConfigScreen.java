@@ -51,6 +51,6 @@ public class NoDriftConfigScreen extends Screen {
 	@Override
 	public void onClose() {
 		NoDriftConfig.save();
-		minecraft.setScreen(parent);
+		minecraft.setScreenAndShow(parent);
 	}
 }
