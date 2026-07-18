@@ -26,7 +26,7 @@ The jar lands in `build/libs/`. Requires Java 25.
 MODRINTH_TOKEN=<your-token> ./gradlew modrinth
 ```
 
-Uploads the built jar as a new version of the [nodrift](https://modrinth.com/mod/nodrift) project and syncs the project description from `MODRINTH.md`.
+Uploads the built jar as a new version of the [no-drift](https://modrinth.com/mod/no-drift) project and syncs the project description from `MODRINTH.md`.
 
 ## License
 

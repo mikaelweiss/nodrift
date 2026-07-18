@@ -56,7 +56,7 @@ jar {
 
 modrinth {
 	token = System.getenv("MODRINTH_TOKEN")
-	projectId = 'nodrift'
+	projectId = 'sfKAll4U'
 	versionNumber = "${project.version}"
 	versionName = "NoDrift ${project.version}"
 	versionType = 'release'
