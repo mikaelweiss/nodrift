@@ -16,7 +16,7 @@ NoDrift dampens that glide to whatever amount you actually want, from full vanil
 
 ## Settings
 
-Requires [Mod Menu](https://modrinth.com/mod/modmenu) to open the settings screen (the mod works without it — you just can't change the slider). Your choice is saved to `config/nodrift.json`.
+Requires [Mod Menu](https://modrinth.com/mod/modmenu) to open the settings screen (the mod works without it, you just can't change the slider). Your choice is saved to `config/nodrift.json`.
 
 | Slider         | Feel                                                 |
 | -------------- | ---------------------------------------------------- |
